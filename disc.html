@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shxdow</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    
+    <div class="card">
+      <div class="card-ascii">
+        <img class="card-ascii-img" src="img/4.png" alt="ASCII art" />
+      </div>
+
+      <div class="card-avatar">
+        <img src="img/pfp.jpg" alt="Shxdow avatar" />
+      </div>
+
+      <div class="card-title">
+        <p>C L O U D</p>
+      </div>
+
+      <div>
+        <p class="description">Discord: _.shxdow._</p>
+      </div>
+
+      <div class="social-buttons">
+        <!-- Telegram -->
+        <a href="https://t.me/shxdow" target="_blank" class="social-button tg">
+          <!-- SVG icon -->
+          <svg version="1.1" viewBox="0 20 50 5" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <path d="M40.83,8.48c1.14,0,2,1,1.54,2.86l-5.58,26.3c-.39,1.87-1.52,2.32-3.08,1.45L20.4,29.26a.4.4,0,0,1,0-.65L35.77,14.73c.7-.62-.15-.92-1.07-.36L15.41,26.54a.46.46,0,0,1-.4.05L6.82,24C5,23.47,5,22.22,7.23,21.33L40,8.69a2.16,2.16,0,0,1,.83-.21Z" />
+            </g>
+          </svg>
+        </a>
+
+        <!-- Website placeholder -->
+        <a href="Drexxyyy.github.io" target="_blank" class="social-button www">
+          <svg version="1.1" viewBox="180 684 79 5" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <path d="M231.596,694.829 C229.681,694.192 227.622,693.716 225.455,693.408 C225.75,691.675 225.907,689.859 225.957,688 L233.962,688 C233.783,690.521 232.936...
+              </path>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelector(".card"), {
+      max: 20,
+      speed: 200,
+      reverse: true,
+      easing: "cubic-bezier(.03,.98,.52,.99)",
+      glare: false,
+    });
+  </script>
+</body>
+</html>
